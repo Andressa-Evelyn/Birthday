@@ -1,0 +1,103 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+ 
+
+body {
+
+    background-image: url('img/pexels-natalie-bond-3371094.jpg');
+
+    background-size: cover;
+
+    display: table;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    color: rgb(0, 0, 0);
+
+    user-select: none;
+
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+ 
+
+.container {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-evenly;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    flex-direction: column;
+
+   
+
+}
+
+ 
+
+.title {
+
+    font-size: calc(10px + 3vw);
+
+}
+
+ 
+
+.title p {
+    font-size: calc(10px + 2vw);
+   
+
+}
+
+.countdown {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 2rem;
+    flex-wrap: wrap;   /*quebra a pagina, caso nao caiba*/
+}
+
+.countdown h1 {
+    font-size: calc(10px + 7vw);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.695);
+    text-align: center;
+}
+
+#teste {
+    font-size: 25px;
+    text-align: center;
+}
+
+.button {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    box-shadow:2px 2px 50px whitesmoke;
+}

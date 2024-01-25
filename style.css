@@ -97,7 +97,7 @@ body {
 }
 
 .button:hover {
-    background-color: black;
+    background-color: rgb(255, 253, 158);
     color: white;
     box-shadow:2px 2px 50px whitesmoke;
 }
